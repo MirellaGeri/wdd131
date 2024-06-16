@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development of a home page, also including JavaScript to provide some dynamic information." />
+    <title>WDD 131 - Dynamic Web Fundamentals - Mirella Martinez</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Mirella</h1>
+    <div id="content">
+        <header>
+            <div id="main-title">
+                <h1>WDD 131 - Dynamic Web Fundamentals - </h1>
+                <h1 class="yellow">Mirella Martinez</h1>
+            </div>
+            <nav>
+                <a href="index.html">LinkedIn</a>
+                <a href="https://byui.instructure.com/">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </header>
+        <main class="home-grid">
+            <section class="card1">
+                <h2>About Me</h2>
+                <div class="content">
+                    <p>I am Mirella Martinez and I am from Peru, but now I live in Madrid Spain with my family to have a better life and learn more about this wonderful country.
+                        I love visiting new places and hope to travel around the world.</p>
+                    <img class="me" src="images/Mirella.jpeg" alt="myphoto">
+                </div>
+            </section>
+            <section class="card2">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li></li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li></li><a href="https://www.udemy.com/">Udemy</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p > ©2024 🌺 Mirella Martinez Salcedo 🌺 España</p>
+            <p>last modification:</p>
+        </footer>
+    </div>
 </body>
+<script src="scripts/getdates.js" defer></script>
 </html>
