@@ -16,7 +16,6 @@ main section {
 .container{
     background-color: rosybrown;
 }
-
 .container h2{
     text-align: center;
     font-size: 30px;
@@ -37,7 +36,7 @@ main section {
 }
 .name-img{
     position:relative;
-    bottom: 0;
+    bottom: 0;   
 }
 .box{
     position: relative;
