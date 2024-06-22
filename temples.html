@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirella Martinez" />
+    <meta name="description" content="Design and development of a home page, also including JavaScript to provide some dynamic information." />
+    <title>WDD 131 - Temples - Mirella Martinez</title>
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="title">
+                <h1>Temple Album</h1>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a href="temples.html" >Home</a>
+                <a href="#">Old</a>
+                <a href="#">New</a>
+                <a href="#">Large</a>
+                <a href="#">Small</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+        </header>
+        <main class="container">
+            <h2>HOME</h2>
+            <div class="home-grid">
+                <div class="box">
+                    <img src="images/arequipaPeru.jpeg" class="imagen" alt="Peru">
+                    <h3 class="name-img">Arequipa</h3>
+                </div>
+                <div class="box">
+                    <img src="images/campinasBrazil.jpg" class="imagen"  alt="Brazil">
+                    <h3 class="name-img">Campinas</h3>
+                </div>
+                <div class="box">
+                    <img src="images/ciudaddeMexico.jpeg" class="imagen"  alt="Mexico">
+                    <h3 class="name-img">Ciudad de Mexico</h3>
+                </div>
+                <div class="box">
+                    <img src="images/hongKongChina.jpeg" class="imagen"  alt="China">
+                    <h3 class="name-img">HongKong</h3>
+                </div>
+                <div class="box">
+                    <img src="images/houstonEU.jpeg" class="imagen"  alt="EU">
+                    <h3 class="name-img">Houston</h3>
+                </div>
+                <div class="box">
+                    <img src="images/madridEspaña.jpeg" class="imagen"  alt="España">
+                    <h3 class="name-img">Madrid</h3>
+                </div>
+                <div class="box">
+                    <img src="images/manilaFilipinas.jpeg" class="imagen"  alt="Filipinas">
+                    <h3 class="name-img">Manila</h3>
+                </div>
+                <div class="box">
+                    <img src="images/romaItaly.jpeg" class="imagen"  alt="Italy">
+                    <h3 class="name-img">Roma</h3>
+                </div>
+                <div class="box">
+                    <img src="images/saltLakeEU.jpeg" class="imagen"  alt="EU">
+                    <h3 class="name-img">SaltLake</h3>
+                </div>          
+            </div>    
+        </main>
+        <footer>
+            <p> &copy; <span id="year"></span> 🌺 Mirella Martinez Salcedo 🌺 España</p>
+            <p>last modification: <span id="lastModified"></span> </p>
+        </footer>
+    </div>
+</body>
+</html>
