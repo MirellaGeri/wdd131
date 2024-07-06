@@ -14,65 +14,65 @@
     <script src="scripts/temples.js" defer></script>
 </head>
 <body>
-    <div id="content">
-        <header>
-            <div id="title">
-                <h1>Temple Album</h1>
+    <header>
+        <div id="title">
+            <h1>Temple Album</h1>
+        </div>
+        <nav class="topnav" id="myTopnav">
+            <a href="temples.html" >Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+            <a href="#" id="menu" class="icon" onclick="myFunction()">
+                &#9776;</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>HOME</h2>
+        <div class="home-grid">
+            <div class="box">
+                <img src="images/arequipaPeru.jpeg" class="imagen" alt="Peru" loading="lazy">
+                <h3 class="name-img">Arequipa</h3>
             </div>
-            <nav class="topnav" id="myTopnav">
-                <a href="temples.html" >Home</a>
-                <a href="#">Old</a>
-                <a href="#">New</a>
-                <a href="#">Large</a>
-                <a href="#">Small</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </nav>
-        </header>
-        <main class="container">
-            <h2>HOME</h2>
-            <div class="home-grid">
-                <div class="box">
-                    <img src="images/arequipaPeru.jpeg" class="imagen" alt="Peru">
-                    <h3 class="name-img">Arequipa</h3>
-                </div>
-                <div class="box">
-                    <img src="images/campinasBrazil.jpg" class="imagen"  alt="Brazil">
-                    <h3 class="name-img">Campinas</h3>
-                </div>
-                <div class="box">
-                    <img src="images/ciudaddeMexico.jpeg" class="imagen"  alt="Mexico">
-                    <h3 class="name-img">Ciudad de Mexico</h3>
-                </div>
-                <div class="box">
-                    <img src="images/hongKongChina.jpeg" class="imagen"  alt="China">
-                    <h3 class="name-img">HongKong</h3>
-                </div>
-                <div class="box">
-                    <img src="images/houstonEU.jpeg" class="imagen"  alt="EU">
-                    <h3 class="name-img">Houston</h3>
-                </div>
-                <div class="box">
-                    <img src="images/madridEspaña.jpeg" class="imagen"  alt="España">
-                    <h3 class="name-img">Madrid</h3>
-                </div>
-                <div class="box">
-                    <img src="images/manilaFilipinas.jpeg" class="imagen"  alt="Filipinas">
-                    <h3 class="name-img">Manila</h3>
-                </div>
-                <div class="box">
-                    <img src="images/romaItaly.jpeg" class="imagen"  alt="Italy">
-                    <h3 class="name-img">Roma</h3>
-                </div>
-                <div class="box">
-                    <img src="images/saltLakeEU.jpeg" class="imagen"  alt="EU">
-                    <h3 class="name-img">SaltLake</h3>
-                </div>          
-            </div>    
-        </main>
-        <footer>
-            <p> &copy; <span id="year"></span> 🌺 Mirella Martinez Salcedo 🌺 Spain</p>
-            <p>last modification: <span id="lastModified"></span> </p>
-        </footer>
-    </div>
+            <div class="box">
+                <img src="images/campinasBrazil.jpg" class="imagen"  alt="Brazil" loading="lazy">
+                <h3 class="name-img">Campinas</h3>
+            </div>
+            
+            <div class="box">
+                <img src="images/ciudaddeMexico.jpeg" class="imagen"  alt="Mexico" loading="lazy">
+                <h3 class="name-img">Ciudad de Mexico</h3>
+            </div>
+            <div class="box">
+                <img src="images/hongKongChina.jpeg" class="imagen"  alt="China" loading="lazy">
+                <h3 class="name-img">HongKong</h3>
+            </div>
+            <div class="box">
+                <img src="images/houstonEU.jpeg" class="imagen"  alt="EU" loading="lazy">
+                <h3 class="name-img">Houston</h3>
+            </div>
+            <div class="box">
+                <img src="images/madridEspaña.jpeg" class="imagen"  alt="España" loading="lazy">
+                <h3 class="name-img">Madrid</h3>
+            </div>
+            <div class="box">
+                <img src="images/manilaFilipinas.jpeg" class="imagen"  alt="Filipinas" loading="lazy">
+                <h3 class="name-img">Manila</h3>
+            </div>
+            <div class="box">
+                <img src="images/romaItaly.jpeg" class="imagen"  alt="Italy" loading="lazy">
+                <h3 class="name-img">Roma</h3>
+            </div>
+            <div class="box">
+                <img src="images/saltLakeEU.jpeg" class="imagen"  alt="EU" loading="lazy">
+                <h3 class="name-img">SaltLake</h3>
+            </div>          
+        </div>    
+    </main>
+    <footer>
+        <p> &copy; <span id="year"></span> 🌺 Mirella Martinez Salcedo 🌺 Spain</p>
+        <p>last modification: <span id="lastModified"></span> </p>
+    </footer>
 </body>
 </html>
