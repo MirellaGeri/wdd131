@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .productReviewForm {
+        max-width: 800px;
+        padding: 1rem;
+        margin: 0 auto; 
+    }
+
+    .productReviewForm input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+        max-width: 800px;
+    }
+
+    #overallRating label {
+        font-size: 1.5rem;
+    }
+
+    #box label{
+        display: left;
+    }
+}
+@media (max-width:700px) {
+    #box label{
+        display: block;
+    }
+}

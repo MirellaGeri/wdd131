@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color:rgb(75, 5, 140);
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+}
+#content{
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+#dateOfInstalation, #wReview, #yName{
+    text-align: left;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.productReviewForm {
+    padding: 1rem;
+    margin: 0 1rem;
+}
+.productReviewForm div {
+    padding: 10px;
+}
+.productReviewForm label, legend,#box div {
+    font-weight: 700;
+}
+.productReviewForm input[type="text"],
+.productReviewForm input[type="date"],
+.productReviewForm select,
+.productReviewForm textarea {
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 100%;
+    appearance: none;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.productReviewForm input[type="checkbox"] {
+    margin: .75rem;
+}
+#overallRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+#overallRating label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+input[type="submit"] {
+    border: none;
+    background-color: #fff8f8;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    margin: auto;
+    box-shadow: 1px 1px 4px #999;
+    font-size: 1rem;
+}
+.productReviewForm #submitBtn {
+    text-align: center;
+}
+#reviewHTML {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color:rgb(75, 5, 140);
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+footer p {
+    font-size: 1.2em;
+    margin: 0.25rem;
+    padding: 0.5rem 0.75rem;;   
+}
