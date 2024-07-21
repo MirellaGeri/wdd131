@@ -1,0 +1,48 @@
+@media (min-width:700px){
+    #card{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:20px;
+    }
+    
+}
+
+@media (min-width:1000px) {
+    #card{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .header a{
+        float: left;
+        text-align: center;
+    }
+    .header-right{
+        padding-top: 20px;
+        float: right;
+    }
+    .header-right a{
+        display: block;
+        padding: 15px;
+    }
+    .header-right a.icon {
+        display: none;
+    }
+    .header a.active {
+        background-color: #FF822F;
+        color: white;
+      }
+    footer {
+        text-align: center;
+    }
+    footer div{
+        display: inline-block;
+        padding: 30px;
+    }
+    .about-grid{
+        width: 100%;
+        display: flex;
+      }
+}
+@media (min-width:1500px) {
+    #card{
+        grid-template-columns: repeat(4, 1fr);
+    } 
+}

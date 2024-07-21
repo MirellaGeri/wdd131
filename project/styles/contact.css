@@ -1,0 +1,59 @@
+input[type=text], select, textarea ,input[type=email]  {
+    width: 100%;
+    padding: 12px 0;
+    border: 2px solid #B897CF;
+    border-radius: 4px;
+    resize: vertical;
+    float: inline-start;
+  }
+  label {
+    font-family: "Edu TAS Beginner";
+    color: #FF822F;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=submit] {
+    background-color: #FF822F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input[type=submit]:hover {
+    background-color: #FADD1B;
+    color: #5B1966;
+  }
+#container {
+    border-radius: 5px;
+    background-color:  #FCEFB4;
+    padding: 10px;
+}
+.title {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+  }
+  
+.textfield {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .textfield, .title, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  #reviewHTML {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
